@@ -1,0 +1,17 @@
+[package]
+name = "student_identity"
+version = "1.0.0"
+authors = []
+
+[addresses]
+student_identity = "0x71fad052fcf08445d2431ebe68096ccbf9b0eaa084a87e2b81b5a9373d7d4635"
+named_address = "0xe2dde46fab1958412e83b922247127f5ae2a25390a21cde4f3116a78103d650d"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
