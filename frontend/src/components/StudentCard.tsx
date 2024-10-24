@@ -17,10 +17,12 @@ const StudentCard: React.FC = () => {
   }, []);
 
   return (
-    <div className="student-card">
-      <h2>Student ID: {student.id}</h2>
-      <p>Name: {student.name}</p>
-      <p>Enrolled: {student.enrolled ? 'Yes' : 'No'}</p>
+    <div className="card-container">
+      <div className="student-card">
+        <h2>Student ID: {student.id}</h2>
+        <p>Name: {student.name}</p>
+        <p>Enrolled: {student.enrolled ? 'Yes' : 'No'}</p>
+      </div>
     </div>
   );
 };
